@@ -1,0 +1,50 @@
+.container {
+  height: 90vh;
+  min-width: 200px;
+  padding: 1rem;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+
+  overflow-y: scroll;
+  z-index: 5;
+}
+
+.container > div {
+  display: flex;
+  align-items: center;
+}
+
+.container h2 {
+  line-height: 1;
+}
+
+.close_btn,
+.open_btn {
+  padding: 10px 10px;
+  border: none;
+  border-radius: 2px;
+  background-color: transparent;
+  font-weight: 800;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.close_btn {
+  padding: 0;
+  padding-right: 3px;
+  margin-left: auto;
+  font-weight: 800;
+}
+
+.open_btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}

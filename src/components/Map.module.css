@@ -1,0 +1,12 @@
+.map {
+  position: relative;
+  height: 100vh;
+  z-index: 1;
+}
+
+.chosen_marker {
+  background-color: black;
+  color: black;
+  border-color: black;
+  border-width: 0 0 1px 0;
+}

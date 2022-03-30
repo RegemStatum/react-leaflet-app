@@ -25,7 +25,6 @@ const Map: FC = () => {
           </Marker>
         );
       })}
-      <button>Set map</button>
     </MapContainer>
   );
 };
